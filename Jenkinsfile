@@ -20,7 +20,7 @@ pipeline {
         stage('Serve') {
             steps {
                 // Etapa que executa o servidor da aplicação Angular usando o comando "ng serve"
-                sh 'npm run start'
+                sh 'npm run serve'
             }
         }
 
